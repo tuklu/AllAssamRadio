@@ -31,5 +31,6 @@ A **radio streaming application** built using **Vite + React.js** that brings to
 
 ```bash
 git clone https://github.com/tuklu/AllAssamRadio.git
-cd assam-radio<
+cd AllAssamRadio
+npm install
 ```
