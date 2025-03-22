@@ -1,12 +1,35 @@
-# React + Vite
+# 📻 Assam Radio Streaming Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **radio streaming application** built using **Vite + React.js** that brings together all the radio stations from **Assam** in one place. The app offers a seamless music player experience with features like **play, pause, next**, and **live chat** functionality for real-time interaction.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Stream all **Assam radio stations** from a single platform
+- ✅ **Play, Pause, and Next** buttons for easy navigation between stations
+- ✅ **Live chat** for real-time user interaction
+- ✅ User-friendly **UI/UX** resembling a music player
+- ✅ **Fast and optimized** performance with Vite
+- ✅ **Responsive design** for desktop, tablet, and mobile devices
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Vite + React.js
+- **Backend:** Express.js (for live chat functionality and server communication)
+- **Styling:** Tailwind CSS (for modern and responsive UI)
+- **State Management:** React Context or Redux (if required)
+- **Streaming Protocol:** Shoutcast/Icecast stream links
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/tuklu/AllAssamRadio.git
+cd assam-radio<
+```
