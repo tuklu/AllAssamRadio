@@ -1,36 +1,63 @@
-# 📻 Assam Radio Streaming Application
+# 📻 All Assam Radio
 
-A **radio streaming application** built using **Vite + React.js** that brings together all the radio stations from **Assam** in one place. The app offers a seamless music player experience with features like **play, pause, next**, and **live chat** functionality for real-time interaction.
+## Overview
 
----
+All Assam Radio is a modern, multi-platform radio streaming application that blends the aesthetics of a vintage record player with cutting-edge digital features. The project is designed for web, mobile, and smart assistants like Alexa, ensuring seamless access across devices.
 
-## 🚀 Features
+## Features
 
-- ✅ Stream all **Assam radio stations** from a single platform
-- ✅ **Play, Pause, and Next** buttons for easy navigation between stations
-- ✅ **Live chat** for real-time user interaction
-- ✅ User-friendly **UI/UX** resembling a music player
-- ✅ **Fast and optimized** performance with Vite
-- ✅ **Responsive design** for desktop, tablet, and mobile devices
+- **Live Radio Streaming** – Listen to real-time radio broadcasts.
+- **Cross-Platform Support** – Available on Web, Mobile, and Alexa-enabled devices.
+- **Interactive Live Chat** – Engage with other listeners in real-time.
+- **Media Controls** – Play, pause, and switch between stations effortlessly.
+- **Station Navigation** – Browse through different stations with ease.
+- **Alexa Integration** – Voice-controlled access to stations.
 
----
+## System Architecture
 
-## 🛠️ Tech Stack
+The system is designed to be modular and scalable, allowing seamless integration of multiple platforms:
 
-- **Frontend:** Vite + React.js
-- **Backend:** Express.js (for live chat functionality and server communication)
-- **Styling:** Tailwind CSS (for modern and responsive UI)
-- **State Management:** React Context or Redux (if required)
-- **Streaming Protocol:** Shoutcast/Icecast stream links
+- **Frontend (Web & Mobile)**: Built with React for a responsive UI.
+- **Backend**: A JS & Python based backend handles streaming, chat, and Alexa Skill API interactions.
+- **Alexa Skill**: Developed in Python using AWS Lambda for voice command processing.
+- **Database**: NoSQL storage for chat messages and user interactions.
+- **Hosting**: Deployed on a cloud server with CDN support for fast streaming.
 
----
+## Tech Stack
 
-## ⚙️ Installation
+### Web & Mobile App
 
-1. **Clone the Repository**
+- **Frontend**: React
+- **State Management**: Redux
+- **Styling**: Tailwind CSS
+- **Chat Integration**: WebSockets
+- **Authentication**: OAuth 2.0
 
-```bash
-git clone https://github.com/tuklu/AllAssamRadio.git
-cd AllAssamRadio
-npm install
-```
+### Backend
+
+- **Framework**: FastAPI (Python)
+- **Database**: MongoDB
+- **Streaming Service**: Icecast
+- **Hosting**: OwnServer
+
+### Alexa Skill
+
+- **Language**: Python
+- **Framework**: AWS Lambda + Alexa Skills Kit (ASK)
+- **Deployment**: AWS Lambda with API Gateway
+
+## Future Enhancements
+
+- **Personalized Station Recommendations**
+- **Podcast & On-Demand Content**
+- **AI-powered Voice Commands**
+- **Dark/Light Mode Toggle**
+
+## Contributing
+
+We welcome contributions! Please follow the standard PR guidelines and submit your features or bug fixes.
+
+## License
+
+MIT License
+
